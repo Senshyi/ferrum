@@ -1,0 +1,11 @@
+[package]
+name = "ferrum-cli"
+version.workspace = true
+edition.workspace = true
+
+[[bin]]
+name = "ferrum"
+path = "src/main.rs"
+
+[dependencies]
+ferrum-core = { path = "../ferrum-core" }
