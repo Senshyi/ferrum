@@ -1,5 +1,6 @@
-pub const VERSION: &str = env!("CARGO_PKG_VERSION");
+pub mod command;
 
+pub const VERSION: &str = env!("CARGO_PKG_VERSION");
 #[cfg(test)]
 mod tests {
     use super::*;
